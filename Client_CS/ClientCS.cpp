@@ -8,7 +8,6 @@
 #include "../GameLib/Player.h"
 #include "../GameLib/Renderer.h"
 
-
 void main()
 {
 	Player me;
