@@ -8,11 +8,9 @@
 class Renderer {
 public:
 	static Renderer& GetInstance();
-	~Renderer();
+	~Renderer() = default;
 private:
 	Renderer() = default;
-	Renderer(Renderer const&) = delete;
-	void operator=(Renderer const&) = delete;
 
 public:
 	sf::RenderWindow window;
